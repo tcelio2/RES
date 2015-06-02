@@ -1,0 +1,13 @@
+programPackage = cobolprogramclasses
+dataPackage = coboldataclasses
+isEbcdicMachine = false
+isBigEndian = false
+createTables = false
+#driverNameJDBC = "com.mysql.jdbc.Driver"
+#connectionUrlJDBC = "jdbc:mysql://127.0.0.1/james"
+#userNameJDBC = "root"
+#passwordJDBC = "james123"
+driverNameJDBC = "oracle.jdbc.OracleDriver"
+connectionUrlJDBC = "jdbc:oracle:thin:Herong/TopSecret@:1521:XE"
+userNameJDBC = "system"
+passwordJDBC = "java123!"

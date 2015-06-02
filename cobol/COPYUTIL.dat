@@ -1,0 +1,144 @@
+       01  CHK-RESULT              PIC 99        COMP.
+       01  CHK-FUNCTION            PIC 99        COMP VALUE 15.
+       01  CHK-PARAMETER.
+           03  CHK-SIZE            PIC 99        COMP VALUE 8.
+           03  CHK-FILENAME        PIC X(15)     VALUE SPACES.
+
+       01  DEL-FILENAME            PIC X(15).
+       01  DEL-RETURN-CODE         PIC 99        COMP.
+
+       01  DIR-FILENAME            PIC X(15).
+       01  DIR-DETAILS.
+           03  DIR-FILE-SIZE       PIC X(8)      COMP-X.
+           03  DIR-FILE-DATE.
+               05  DIR-FILE-DD     PIC X         COMP-X.
+               05  DIR-FILE-MM     PIC X         COMP-X.
+               05  DIR-FILE-YY     PIC XX        COMP-X.
+           03  DIR-FILE-TIME.
+               05  DIR-FILE-HR     PIC X         COMP-X.
+               05  DIR-FILE-MN     PIC X         COMP-X.
+               05  DIR-FILE-SE     PIC X         COMP-X.
+               05  DIR-FILE-HD     PIC X         COMP-X.
+       01  DIR-RETURN-CODE         PIC 99        COMP.
+
+       01  WS-STATUS-OF-FILE.
+           03  WS-FILE-STAT.
+               05  WS-FS1          PIC X.
+               05  WS-FS2          PIC X.
+           03  WS-FILE-STATUS  REDEFINES  WS-FILE-STAT
+                                   PIC 9(4)      COMP.
+           03  WS-EXPAND-STAT.
+               05  WS-ES1          PIC X.
+               05  WS-ES2          PIC 999.
+       01  WS-FILE-NAME            PIC X(12).
+       01  WS-LOCKED               PIC X.
+       01  WS-STATUS.
+           03  WS-FUNC-TEST        PIC X.
+           03  WS-FUNCX.
+               05  WS-FUNCTION     PIC 99        COMP.
+           03  FILLER              PIC X.
+
+       01  WS-HIDE-FLAG            PIC 99        COMP VALUE 1.
+       01  WS-HIDE-PAR.
+           03  WS-HIDE-CONTROL     PIC 99        COMP VALUE 2.
+           03  FILLER              PIC X         VALUE "2".
+           03  FILLER              PIC 99        COMP VALUE 84.
+           03  FILLER              PIC 99        COMP VALUE 2.
+
+       01  WS-POSITION             PIC 9999.
+       01  WS-LINCOL  REDEFINES  WS-POSITION.
+           03  WS-LIN              PIC 99.
+           03  WS-COL              PIC 99.
+
+       01  WS-PROGRAM              PIC X(8).
+
+       01  WS-TXCODE-ARG.
+           03  WS-ACTION           PIC X.
+           03  WS-TXCODE-IN        PIC X(7).
+           03  WS-TXCODE-OUT.
+               05  WS-TC-CH        PIC X         OCCURS 7.
+
+       01  WS-DATE                 PIC 9(6).
+       01  WS-DATEX REDEFINES WS-DATE.
+           03  WS-YEAR             PIC 99.
+           03  WS-MONTH            PIC 99.
+           03  WS-DAY              PIC 99.
+
+       01  WS-TIME                 PIC 9(8).
+       01  WS-TIMEX REDEFINES WS-TIME.
+           03  WS-HRS              PIC 99.
+           03  WS-MINS             PIC 99.
+           03  WS-SECS             PIC 99.
+           03  WS-SECS2            PIC 99.
+
+       01  WS-DATE-ARG.
+           03  WS-DACTION          PIC 9.
+           03  WS-AFORM            PIC X.
+           03  WS-BFORM            PIC X.
+           03  WS-ADATE            PIC X(10).
+           03  WS-BDATE            PIC X(10).
+           03  WS-SIGN             PIC X.
+           03  WS-ARGDAYS          PIC 999.
+           03  WS-NUMDAYS          PIC 9(5).
+           03  WS-DAYNAME          PIC X(9).
+           03  WS-RETURN           PIC 9.
+
+       01  WS-DESC-ARG.
+           03  WS-REC-TYPE.
+               05  WS-REC-TYPE1    PIC X.
+               05  WS-REC-TYPE2    PIC X.
+           03  WS-DESC-CODE.
+               05  WS-LEVEL        PIC X(8)      OCCURS 5.
+           03  WS-DESCRIPTION      PIC X(25).
+           03  WS-DESC-RETURN      PIC X.
+
+       01  WB-BILL-AREA.
+           03  WB-LOG-IND          PIC X.
+           03  WB-LOG-KEY          PIC X(19).
+           03  WB-LOG-PROGRAM      PIC X(8).
+           03  WB-DESCRIPTION      PIC X(35).
+           03  WB-RECS             PIC 9(5)      OCCURS 6.
+           03  WB-LINES            PIC 9(7).
+           03  FILLER              PIC X(13).
+
+       LINKAGE SECTION.
+       01  CHAIN-AREA.
+           03  CHAIN-LOG-INFO      PIC X(10).
+           03  CHAIN-ITEM          PIC X(50)     JUST.
+           03  CHAIN-KEM-USER      PIC X(4).
+           03  CHAIN-USER-ID       PIC XXX.
+           03  CHAIN-CO-NO         PIC XX.
+           03  CHAIN-SUPP-RUN      PIC X.
+           03  CHAIN-PROGRAM       PIC X(8).
+           03  CHAIN-PRT-NAME      PIC X(8).
+           03  CHAIN-PRT2-NAME     PIC X(8).
+           03  CHAIN-PRT3-NAME     PIC X(8).
+           03  CHAIN-ERROR         PIC X.
+           03  CHAIN-RETURN        PIC X.
+           03  CHAIN-CC-LEN        PIC 9.
+           03  CHAIN-DP-LEN        PIC 9.
+           03  CHAIN-EM-LEN        PIC 9.
+           03  CHAIN-COUNTRY       PIC XXX.
+           03  CHAIN-LOG-IND       PIC X.
+           03  CHAIN-OP-SYS        PIC X.
+           03  CHAIN-ATTRIBUTE     PIC X.
+           03  CHAIN-PROFILE       PIC X.
+           03  CHAIN-CC-LEVEL      PIC 9.
+           03  CHAIN-DP-LEVEL      PIC 9.
+           03  CHAIN-SECTION       PIC X.
+           03  CHAIN-UNIX-PRT      PIC X.
+           03  CHAIN-MODIFIER      PIC X.
+           03  CHAIN-PNT-SEC       PIC X.
+           03  CHAIN-ITEMR         PIC X.
+           03  CHAIN-MENU          PIC X.
+           03  CHAIN-SCREENS.
+               05  CHAIN-SCREEN    PIC X     OCCURS 10.
+           03  CHAIN-COMPANIES.
+               05  CHAIN-COMPANY   PIC XX    OCCURS 10.
+           03  CHAIN-SCREEN-CHARS.
+               05  CHAIN-TOP-RIGHT PIC X.
+               05  CHAIN-TOP-LEFT  PIC X.
+               05  CHAIN-BOT-RIGHT PIC X.
+               05  CHAIN-BOT-LEFT  PIC X.
+               05  CHAIN-UPDOWN    PIC X.
+               05  CHAIN-ACROSS    PIC X.

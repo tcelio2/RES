@@ -1,0 +1,292 @@
+                                                                                                                        
+                                       OFFICIAL COBOL COMPILER VALIDATION SYSTEM                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                        CCVS85 4.2  COPY - NOT FOR DISTRIBUTION                                         
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+TEST RESULT OF NC170A    IN  HIGH        LEVEL VALIDATION FOR ON-SITE VALIDATION, NATIONAL INSTITUTE OF STD & TECH.     
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+ FOR OFFICIAL USE ONLY            COBOL 85 VERSION 4.2, Apr  1993 SSVG                        COPYRIGHT   1985          
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+ FEATURE              PASS  PARAGRAPH-NAME                                                 REMARKS                      
+                                                                                                                        
+ TESTED               FAIL                                                                                              
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+ ***********************************************************************************************************************
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-1-1     00                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   FAIL* MPY-TEST-F2-2-1     00                                                                      
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                     COMPUTED=  $72.00                                                                  
+                                                                                                                        
+                                     CORRECT =  $72.11               V1-107 6.19.4 GR2                                  
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-3-1     00                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-3-2     00                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-4-1     00                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-4-2     00                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-5       00                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-6       00                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   FAIL* MPY-TEST-F2-7-1     00        WRONGLY AFFECTED BY SIZE ERROR                                
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                     COMPUTED=  000000012345555555                                                      
+                                                                                                                        
+                                     CORRECT =  000000000000000000   V1-107 6.19.4 GR2                                  
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+ MULTIPLY BY GIVING   FAIL* MPY-TEST-F2-7-2     00        ON SIZE ERROR NOT EXECUTED                                    
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                     COMPUTED= 00000000000000000000                                                     
+                                                                                                                        
+                                     CORRECT = 1                     V1-107 6.19.4 GR2                                  
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-8-1     00                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-8-2     00                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   FAIL* MPY-TEST-F2-9-1     00        WRONGLY AFFECTED BY SIZE ERROR                                
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                     COMPUTED=  000000010555555555                                                      
+                                                                                                                        
+                                     CORRECT =  000000000000000000   V1-107 6.19.4 GR2                                  
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+ MULTIPLY BY GIVING   FAIL* MPY-TEST-F2-9-2     00        ON SIZE ERROR NOT EXECUTED                                    
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                     COMPUTED= 00000000000000000000                                                     
+                                                                                                                        
+                                     CORRECT = 1                     V1-107 6.19.4 GR2                                  
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+ MULTIPLY BY GIVING   FAIL* MPY-TEST-F2-10-1    00                                                                      
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                     COMPUTED=  011111111111111110                                                      
+                                                                                                                        
+                                     CORRECT =  011111111111111111   V1-107 6.19.4 GR2                                  
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-10-2    00                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-11      00                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-12      00                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-13      00                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-14      00                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-15      00                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-16-2   . 1                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-16-3   . 2                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-17-2   . 1                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-17-3   . 2                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-18-2   . 1                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-18-3   . 2                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-19-2   . 1                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-19-3   . 2                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-20     . 1                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-20     . 2                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-20     . 3                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-20     . 4                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-20     . 5                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-21     . 1                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-21     . 2                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-21     . 3                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-21     . 4                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-21     . 5                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-21     . 6                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-22     . 1                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-22     . 2                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-22     . 3                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-22     . 4                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-22     . 5                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-22     . 6                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-23     . 1                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-23     . 2                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-23     . 3                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-23     . 4                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-23     . 5                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-23     . 6                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-24     . 1                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-24     . 2                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-24     . 3                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-24     . 4                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-24     . 5                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-24     . 6                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-25     . 1                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-25     . 2                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-25     . 3                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-25     . 4                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-25     . 5                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-25     . 6                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-26     . 1                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-26     . 2                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-26     . 3                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-26     . 4                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-26     . 5                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-26     . 6                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-27-1   . 1                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-27-2   . 2                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-27-3   . 3                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-27-4   . 4                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-27-5   . 5                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-28-1   . 1                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-28-2   . 2                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-28-3   . 3                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-28-4   . 4                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-28-5   . 5                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-29-1   . 1                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-29-2   . 2                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-29-3   . 3                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-29-4   . 4                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-29-5   . 5                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-30-1   . 1                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-30-2   . 2                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-30-3   . 3                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-30-4   . 4                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-30-5   . 5                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-31-1   . 1                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-31-2   . 2                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-31-3   . 3                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-32-1   . 1                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-32-2   . 2                                                                      
+                                                                                                                        
+ MULTIPLY BY GIVING   PASS  MPY-TEST-F2-32-3   . 3                                                                      
+                                                                                                                        
+ ***********************************************************************************************************************
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                    END OF TEST-  NC170A                                                
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                     90 OF  96  TESTS WERE EXECUTED SUCCESSFULLY                        
+                                                                                                                        
+                                                      6 TEST(S) FAILED                                                  
+                                                                                                                        
+                                                    NO  TEST(S) DELETED                                                 
+                                                                                                                        
+                                                    NO  TEST(S) REQUIRE INSPECTION                                      
+                                                                                                                        
+ FOR OFFICIAL USE ONLY            ON-SITE VALIDATION, NATIONAL INSTITUTE OF STD & TECH.                   COPYRIGHT 1985

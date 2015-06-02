@@ -1,0 +1,649 @@
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\ACCEPT.cob
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\Addition.cob
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\Bubble-Sort.cob
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\Bubble-Sort2.cob
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\conditions.cob
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\DATET.COB
+com.res.cobol.parser.ParseException: Encountered " <COBOL_WORD> "SCREEN "" at line 104, column 8.
+Was expecting:
+    <EOF> 
+    
+Errors encountered. Processing terminated.
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\EXEC-SQL-RUN1.COB
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Warning: 01 level Group SQLCA not translated. Using com.res.java.lib.Sqlca
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\EXEC-SQL1.COB
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Warning: 01 level Group SQLCA not translated. Using com.res.java.lib.Sqlca
+Unknown Host Symbol in SQL: EMPNO
+Done in 1s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\EXEC-SQL1TEMP.COB
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;
+Warning: Invalid character / in column 7 of line 67. Treated as Comment.
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\GETNUMT.COB
+com.res.cobol.parser.ParseException: Encountered " <COBOL_WORD> "SCREEN "" at line 40, column 8.
+Was expecting:
+    <EOF> 
+    
+Errors encountered. Processing terminated.
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\HelloWorld.cob
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\HelloWorld1.cob
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Warning: 01 level Group SQLCA not translated. Using com.res.java.lib.Sqlca
+Done in 1s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\IterIf.cob
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;
+Warning: Invalid character / in column 7 of line 119. Treated as Comment.
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\LOANT.COB
+com.res.cobol.parser.ParseException: Encountered " <COBOL_WORD> "SCREEN "" at line 46, column 8.
+Was expecting:
+    <EOF> 
+    
+Errors encountered. Processing terminated.
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\MONEYT.COB
+com.res.cobol.parser.ParseException: Encountered " "at" "AT "" at line 59, column 16.
+Was expecting:
+    <EOF> 
+    
+com.res.cobol.parser.ParseException: Encountered " "at" "AT "" at line 59, column 16.
+Was expecting:
+    <EOF> 
+    
+Errors encountered. Processing terminated.
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\Move-Test1.cob
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\MULTIPLIER.cob
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;
+Warning: Invalid character / in column 7 of line 41. Treated as Comment.
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\NAMET.COB
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 1s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\Perform1.cob
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\REFMODIFICATION.COB
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;
+Warning: Invalid character / in column 7 of line 92. Treated as Comment.
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\SHELSRTT.COB
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 1s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\Shortest.cob
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\Acme99.CBL
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 1s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\AROMA96.CBL
+com.res.cobol.parser.ParseException: Encountered " "working-storage" "WORKING-STORAGE "" at line 63, column 1.
+Was expecting:
+    <EOF> 
+    
+com.res.cobol.parser.ParseException: Encountered " "working-storage" "WORKING-STORAGE "" at line 63, column 1.
+Was expecting:
+    <EOF> 
+    
+Errors encountered. Processing terminated.
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\AromaSalesRpt.CBL
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 1s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\BestSellers.cbl
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\BookshopRpt91.Cbl
+com.res.cobol.parser.ParseException: Encountered " "." ". "" at line 1, column 26.
+Was expecting:
+    <EOF> 
+    
+com.res.cobol.parser.ParseException: Encountered " "." ". "" at line 1, column 26.
+Was expecting:
+    <EOF> 
+    
+Errors encountered. Processing terminated.
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\CSISEmailDomain.cbl
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\DateDriver.cbl
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\DayDiffDriver.cbl
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\DirectReadIdx.cbl
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\DriverProg.cbl
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\DueSubsRpt.CBL
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 1s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\Fickle.cbl
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\FileConv.cbl
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\FlyByNight.CBL
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\InputSort.CBL
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\LibRoyaltyRpt.Cbl
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 1s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\MaleSort.CBL
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\Merge.CBL
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\MileageCount.CBL
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\MONEY.CBL
+com.res.cobol.parser.ParseException: Encountered " "at" "AT "" at line 147, column 16.
+Was expecting:
+    <EOF> 
+    
+com.res.cobol.parser.ParseException: Encountered " "at" "AT "" at line 147, column 16.
+Was expecting:
+    <EOF> 
+    
+Errors encountered. Processing terminated.
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\MultiplyNums.cbl
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\Perform2.CBL
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\Perform3.CBL
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\Perform4.CBL
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\ReadRel.CBL
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\RepWriteA.cbl
+com.res.cobol.parser.ParseException: Encountered " "working-storage" "WORKING-STORAGE "" at line 25, column 1.
+Was expecting:
+    <EOF> 
+    
+com.res.cobol.parser.ParseException: Encountered " "working-storage" "WORKING-STORAGE "" at line 25, column 1.
+Was expecting:
+    <EOF> 
+    
+Errors encountered. Processing terminated.
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\RepWriteB.cbl
+com.res.cobol.parser.ParseException: Encountered " "working-storage" "WORKING-STORAGE "" at line 26, column 1.
+Was expecting:
+    <EOF> 
+    
+com.res.cobol.parser.ParseException: Encountered " "working-storage" "WORKING-STORAGE "" at line 26, column 1.
+Was expecting:
+    <EOF> 
+    
+Errors encountered. Processing terminated.
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\RepWriteFull.cbl
+com.res.cobol.parser.ParseException: Encountered " "working-storage" "WORKING-STORAGE "" at line 24, column 1.
+Was expecting:
+    <EOF> 
+    
+com.res.cobol.parser.ParseException: Encountered " "working-storage" "WORKING-STORAGE "" at line 24, column 1.
+Was expecting:
+    <EOF> 
+    
+Errors encountered. Processing terminated.
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\RepWriteSumm.cbl
+com.res.cobol.parser.ParseException: Encountered " "working-storage" "WORKING-STORAGE "" at line 24, column 1.
+Was expecting:
+    <EOF> 
+    
+com.res.cobol.parser.ParseException: Encountered " "working-storage" "WORKING-STORAGE "" at line 24, column 1.
+Was expecting:
+    <EOF> 
+    
+Errors encountered. Processing terminated.
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\Seq2Index.cbl
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\Seq2Rel.CBL
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\SeqInsert.CBL
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\SeqRead.CBL
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\SeqReadIdx.cbl
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\SeqReadno88.CBL
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\SeqRpt.CBL
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\SeqWrite.CBL
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\sfbymail.cbl
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\Steadfast.cbl
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\STUDFEES.CBL
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\TopSupplierRpt.Cbl
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 1s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\UnstringFileEg.cbl
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\USSRSHIP.CBL
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 1s.
+
+RES Cobol 2 Java alpha1.9(08/05/2010) - COPYRIGHT 2009
+Options: cobolComments=true;cobolStatementsASComments=true;javaType=most;longDataPackageName=true;overwrite=true;sourceFormat=free;
+Parsing Cobol started for: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol\Validate.cbl
+Translation to Java started.
+The java classes are under the folder: C:\Documents and Settings\Venkat\Desktop\_All My Programs\_RES-DEPLOY\RES\cobol
+Classes from translation of programs reside in the package: cobolprogramclasses
+Classes from translation of data levels reside in the package: coboldataclasses
+Done in 0s.
+

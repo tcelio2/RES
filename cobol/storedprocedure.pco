@@ -1,0 +1,72 @@
+        Identification Division. 
+        Program-ID. storedprocedure. 
+        Author. 
+      
+        
+        DATA DIVISION.
+
+        WORKING-STORAGE SECTION.
+       
+      
+        01 WS-ID                    PIC 9(3) VALUE 0.
+	01 WS-FIRST-NAME            PIC X(40) VALUE SPACES.
+	01 WS-LAST-NAME             PIC X(40) VALUE SPACES.
+        01 WS-MIDDLE-NAME           PIC X(40) VALUE SPACES.
+        01 WS-TITLE                 PIC X(10).
+	01 WS-SSN		    PIC 9(3) VALUE 0.
+	  
+
+           EXEC SQL INCLUDE SQLCA END-EXEC.
+     
+       
+       01 S-ID                      PIC 9(3).
+       01 S-FIRST-NAME              PIC X(40) VALUE SPACES.
+       01 S-LAST-NAME               PIC X(40) VALUE SPACES.
+       01 S-MIDDLE-NAME             PIC X(40) VALUE SPACES.
+       01 S-TITLE                   PIC X(10) VALUE SPACES.
+       01 S-SSN			    PIC 9(3).
+       01 F-NAME		    PIC X(100) VALUE SPACES.
+       01 L-NAME		    PIC X(100) VALUE SPACES.
+       01 CL-ID			    PIC 9(3) VALUE 2.
+
+	
+     
+       Procedure Division. 
+      *
+      *
+      *
+       1000-MAIN-PARA.
+
+
+
+	    EXEC SQL
+	    
+		 EXECUTE
+		 CALL  proc_simon_client(:CL-ID,  
+                 :F-NAME,          
+                 :L-NAME)
+ 
+	   END-EXEC.
+		
+	     DISPLAY F-NAME.
+	     DISPLAY L-NAME.
+
+	    
+
+	   
+	   DISPLAY S-FIRST-NAME.
+
+           
+           MOVE S-ID TO WS-ID. 
+	   MOVE S-FIRST-NAME TO WS-FIRST-NAME.
+	   MOVE S-LAST-NAME TO WS-LAST-NAME.
+	   DISPLAY 'WS-ID' WS-ID.
+          
+	   STOP RUN. 
+      
+          1000-MAIN-PARA-X.
+            EXIT.
+      *
+      *
+       
+           

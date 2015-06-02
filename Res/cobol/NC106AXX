@@ -1,0 +1,62 @@
+                                                                                                                        
+                                       OFFICIAL COBOL COMPILER VALIDATION SYSTEM                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                        CCVS85 4.2  COPY - NOT FOR DISTRIBUTION                                         
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+TEST RESULT OF NC106A    IN  HIGH        LEVEL VALIDATION FOR ON-SITE VALIDATION, NATIONAL INSTITUTE OF STD & TECH.     
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+ FOR OFFICIAL USE ONLY            COBOL 85 VERSION 4.2, Apr  1993 SSVG                        COPYRIGHT   1985          
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+ FEATURE              PASS  PARAGRAPH-NAME                                                 REMARKS                      
+                                                                                                                        
+ TESTED               FAIL                                                                                              
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+ ***********************************************************************************************************************
+                                                                                                                        
+ SUBTRACT             PASS  SUB-TEST-F1-1       00                                                                      
+                                                                                                                        
+ SUBTRACT             FAIL* SUB-TEST-F1-2       00                                                                      
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                     COMPUTED= -000000008.000000000                                                     
+                                                                                                                        
+                                     CORRECT = -000000009.000000000  VI-134 6.25.4 GR1                                  
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+ SUBTRACT             PASS  SUB-TEST-F1-3-1     00                                                                      
+                                                                                                                        
+ SUBTRACT             PASS  SUB-TEST-F1-3-2     00                                                                      
+                                                                                                                        
+ SUBTRACT             FAIL* SUB-TEST-F1-4-1     00        ON SIZE ERROR NOT EXECUTED                                    
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                     COMPUTED= -999999999.000000000                                                     
+                                                                                                                        
+                                     CORRECT = -999999999.000000000  VI-134 6.25.4 GR1                                  
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+ SUBTRACT             PASS  SUB-TEST-F1-4-2     00                                                                      
+                                                                                                                        
+ SUBTRACT ---                                   00                                                                      
+                                                                                                                        
+   FROM               PASS  SUB-TEST-F1-5       00                                                                      
+                                                                                                                        
+   FROM               PASS  SUB-TEST-F1-6       00                                                                      
